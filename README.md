@@ -2,4 +2,4 @@
 
 ### BaekjoonOJ(acmicpc.net) with C/C++
 > To-Do
->   > Solve 12865 (DP)
+- Solve 12865 (DP)
