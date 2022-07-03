@@ -15,7 +15,7 @@ int main() {
         if (arr[i] > LIS[idx]) {
             LIS[++idx] = arr[i];
         } else {
-            int t = upper_bound(LIS + 1, LIS + 1 + idx, arr[i]) - LIS;
+            int t = lower_bound(LIS + 1, LIS + 1 + idx, arr[i]) - LIS;
             LIS[t] = arr[i];
         }
 //        printf("%d: %d\n", i, LIS[i]);
